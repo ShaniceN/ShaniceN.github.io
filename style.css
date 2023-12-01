@@ -1,9 +1,55 @@
+header {
+  display: block;
+}
+
 body {
-  background-color: lightblue;
+  background-color: rgb(215, 212, 212);
+  text-align: center;
+  font-family: Tahoma, Verdana, Helvetica, Sans-serif;
 }
 
 h1 {
-  font-family: Verdana, Helvetica, Sans-serif;
+  font-family: Tahoma, Verdana, Helvetica, Sans-serif;
   color: black;
   margin: auto;
 }
+
+img {
+  display: block;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* Style the tab buttons */
+.tablink {
+  background-color: #c5bfbf;
+  color: rgb(0, 0, 0);
+  float: left;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+  margin: auto;
+}
+
+/* Change background color of buttons on hover */
+.tablink:hover {
+  background-color: #d9c9c9;
+}
+
+/* Set default styles for tab content */
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 50px;
+  text-align: center;
+}
+
+/* Style each tab content individually */ 
+#Home {background-color:rgb(168, 165, 165);}
+#Blog {background-color:rgb(168, 165, 165);}
+#Paris {background-color:rgb(168, 165, 165);}
+#Tokyo {background-color:rgb(168, 165, 165);}
