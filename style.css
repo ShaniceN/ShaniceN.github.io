@@ -3,7 +3,7 @@ header {
 }
 
 body {
-  background-color: rgb(215, 212, 212);
+  background-color: white;
   text-align: center;
   font-family: Tahoma, Verdana, Helvetica, Sans-serif;
 }
@@ -21,9 +21,18 @@ img {
   margin-right: auto;
 }
 
+footer {
+  display: block;
+  background-color: #d0cbcb;
+  font-family: Apple Chancery, Cursive;
+  font-size: 14px;
+
+}
+
+
 /* Style the tab buttons */
 .tablink {
-  background-color: #c5bfbf;
+  background-color: #d0cbcb;
   color: rgb(0, 0, 0);
   float: left;
   border: none;
@@ -51,5 +60,5 @@ img {
 /* Style each tab content individually */ 
 #Home {background-color:rgb(168, 165, 165);}
 #Blog {background-color:rgb(168, 165, 165);}
-#Paris {background-color:rgb(168, 165, 165);}
-#Tokyo {background-color:rgb(168, 165, 165);}
+#Projects {background-color:rgb(168, 165, 165);}
+#Contact {background-color:rgb(168, 165, 165);}
