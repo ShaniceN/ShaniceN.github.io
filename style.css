@@ -28,13 +28,13 @@ img {
 
 .text {
   font-size: 15px;
-  padding-left: 100px;
+  padding-left: 200px;
   padding-top: 10%;
   float: left;
 }
 
 .image {
-  width: 100%;
+  width: 75%;
   float: right;
 }
 
