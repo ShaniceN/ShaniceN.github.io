@@ -34,8 +34,10 @@ img {
 }
 
 .image {
-  width: 50%;
   float: right;
+  padding-top: 10%;
+  padding-right: 100px;
+  width: 400px;
 }
 
 footer {
