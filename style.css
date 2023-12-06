@@ -28,15 +28,14 @@ img {
 
 .text {
   font-size: 15px;
-  padding-left: 250px;
   padding-top: 10%;
-  float: left;
+  padding-left: 150px;
+  width: 400px;
 }
 
 .image {
   width: 50%;
   float: right;
-  padding-right: 100px;
 }
 
 footer {
