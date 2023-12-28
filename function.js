@@ -1,3 +1,4 @@
+
 function openTab(headerTab, elmnt, color) {
     // Hide all elements with class="tabcontent" by default */
     var i, tabcontent, tablinks;
@@ -10,14 +11,19 @@ function openTab(headerTab, elmnt, color) {
     tablinks = document.getElementsByClassName("tablink");
     for (i = 0; i < tablinks.length; i++) {
       tablinks[i].style.backgroundColor = "";
+      tablinks[i].className = tablinks[i].className.replace(" active", "");
     }
   
     // Show the specific tab content
     document.getElementById(headerTab).style.display = "block";
+    elmt.currentTarget.className += " active";
   
     // Add the specific color to the button used to open the tab content
     elmnt.style.backgroundColor = color;
-  }
   
-  // Get the element with id="defaultOpen" and click on it
-  document.getElementById("defaultOpen").click();
+  
+    // Get the element with id="defaultOpen" and click on it
+    document.getElementById("defaultOpen").click();
+
+}
+

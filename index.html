@@ -1,42 +1,23 @@
 <!DOCTYPE html>
-<html lang="en"></html>
-<head>
+<html lang="en">
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Shanice Norris</title>
     <link rel="stylesheet" type="text/css" href="style.css">
-</head>
-
-<div id="Home" class="tabcontent">
-  <h1>Home</h1>
-  <p></p>
-</div>
-
-<div id="Blog" class="tabcontent">
-  <h1>Blog</h1>
-  <p></p>
-</div>
-
-<div id="Projects" class="tabcontent">
-  <h1>Projects</h1>
-  <p></p> 
-</div>
-
-<div id="Contact" class="tabcontent">
-  <h1>Contact</h1>
-  <p></p>
-</div>
-<br>
-<button class="tablink" onclick="openTab('Home', this, 'white')" id="defaultOpen">Home</button>
-<button class="tablink" onclick="openTab('Blog', this, 'white')">Blog</button>
-<button class="tablink" onclick="openTab('Projects', this, 'white')">Projects</button>
-<button class="tablink" onclick="openTab('Contact', this, 'white')">Contact</button>
-<br>
-<br>
-
+    <script src="function.js"></script>
+  </head>
 <br>
 <body>
+  
+    <button class="tablink" onclick="openTab('Home', this, 'white')" id="defaultOpen"><a style="color: black" href="./index.html">Home</a></button>
+    <button class="tablink" onclick="openTab('Blog', this, 'white')"><a style="color: black" href="./blog.html">Blog</a></button>
+    <button class="tablink" onclick="openTab('Projects', this, 'white')"><a style="color: black" href="./projects.html">Projects</a></button>
+    <button class="tablink" onclick="openTab('Contact', this, 'white')"><a style="color: black" href="./contact.html">Contact</a></button>
+  
+  <br>
+  <br>
   <p></p>
   <br>
   <br>
@@ -45,26 +26,35 @@
       <h2>Hi there 👋🏽 I'm</h2>
       <h1 style="font-size: 45px;">Shanice Norris</h1>
       <h3 style="color: rgb(174, 108, 123);">Software Developer</h3>
-      <img src="images/memoji.png" alt="Memoji">
+      <img src="images/memoji.png" alt="Memoji on a computer">
     </div>
   </div>
   <br>
   <br>
-  <p></p>
-  <p>As a passionate self-taught software developer, this portfolio is a testament to my commitment to mastering the art of programming. I've sculpted my skills through curiosity and dedication. Join me in exploring a portfolio that mirrors my relentless pursuit of knowledge and passion for crafting elegant solutions in the digital realm.</p>
+  <div>
+    <p></p>
+    <p>As a passionate self-taught software developer, this portfolio is a testament to my commitment to mastering the art of programming. I've sculpted my skills through curiosity and dedication. Join me in exploring a portfolio that mirrors my relentless pursuit of knowledge and passion for crafting elegant solutions in the digital realm.</p>
+  </div>
   <h3>Skills</h3>
-  <p>Python, HTML, CSS, GitHub</p>
+    
+      <p>Python | HTML | CSS | GitHub | SQL</p>
+    
   <br>
   <div class="container" align="center">
     <div class="row">
-      <a style="color: rgb(174, 108, 123);" href="https://www.linkedin.com/in/shanice-norris-5a023027b?trk=contact-info"><font size="3px">Linkedin</font></a>
-      <a style="color: rgb(174, 108, 123);" href="https://github.com/ShaniceN"><font size="3px">Github</font></a>
+
+      <a style="color: rgb(174, 108, 123);" href="https://www.linkedin.com/in/shanice-norris-5a023027b?trk=contact-info" target="_blank"><font size="3px">Linkedin</font></a>
+      <font>|</font>
+      <a style="color: rgb(174, 108, 123);" href="https://github.com/ShaniceN" target="_blank"><font size="3px">Github</font></a>
+      
     </div>
   </div>
   <br>
+  <div>
+    <footer>
+      <p>“Success is not the key to happiness. Happiness is the key to success.”</p>
+      <p>- Winston Churchill</p>
+    </footer>
+  </div>
 </body>
-<footer>
-  <p>“Success is not the key to happiness. Happiness is the key to success.”</p>
-  <p>- Winston Churchill</p>
-</footer>
 </htlm>

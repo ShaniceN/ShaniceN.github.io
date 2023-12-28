@@ -6,6 +6,7 @@ body {
   background-color: white;
   text-align: center;
   font-family: Tahoma, Verdana, Helvetica, Sans-serif;
+
 }
 
 h1 {
@@ -29,7 +30,6 @@ footer {
   border: 30px solid white;
   height: 6em;
 }
-
 
 
 /* Style the tab buttons */
@@ -59,8 +59,3 @@ footer {
   text-align: center;
 }
 
-/* Style each tab content individually */ 
-#Home {background-color:rgb(168, 165, 165);}
-#Blog {background-color:rgb(168, 165, 165);}
-#Projects {background-color:rgb(168, 165, 165);}
-#Contact {background-color:rgb(168, 165, 165);}
