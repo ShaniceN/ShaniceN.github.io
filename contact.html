@@ -19,38 +19,42 @@
         <br>
         <p><h1>Contact Me</h1></p>
         <br>
-        <form action="/contact_info.html" method="POST">
+        <div class="contact-section">
+        <form action="/contact_info.html" method="GET">
             <section class="contact-name">
-                <label for="name">Name</label>
+                <label for="name">Name *</label>
                 <br>
-                <input type="text" name="name" id="name">
+                <input type="text" name="name" id="name" required>
                 <br>
                 <br>
             </section>
             <section class="contact-email">
-                <label for="email">Email</label>
+                <label for="email">Email *</label>
                 <br>
-                <input type="text" name="email" id="email">
+                <input type="text" name="email" id="email" required>
                 <br>
                 <br>
             </section>
             <section class="contact-number">
-                <label for="number">Number</label>
+                <label for="number">Number *</label>
                 <br>
-                <input type="text" name="phone number" id="number">
+                <input type="text" name="phone number" id="number" required>
                 <br>
                 <br>
             </section>
             <section class="contact-message">
-                <label for="message">Message</label>
+                <label for="message">Type your message here *</label>
                 <br>
-                <textarea id="message" name="message" rows="10" cols="40"></textarea>
+                <textarea id="message" name="message" rows="10" cols="40" required></textarea>
                 <br>
                 <br>
             </section>
             <section class="submission">
                 <input type="submit" value="Send">
+                <br>
+                <br>
             </section>
         </form>
+        </div>
     </body>
 </html>
