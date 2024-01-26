@@ -1,5 +1,8 @@
-header {
+
+
+.intro {
   display: block;
+  border: double;
 }
 
 body {
@@ -15,6 +18,11 @@ h1 {
   margin: auto;
 }
 
+h3 {
+  
+  margin: auto;
+}
+
 img {
   display: block;
   width: 25%;
@@ -22,13 +30,15 @@ img {
   margin-right: auto;
 }
 
-footer {
-  display: block;
-  background-color: #d0cbcb;
+.skills {
+  
+}
+
+.quote {
   font-family: Apple Chancery, Cursive;
   font-size: 14px;
-  border: 30px solid white;
-  height: 6em;
+  width: 100%;
+  margin-bottom: 1px;
 }
 
 
@@ -40,7 +50,7 @@ footer {
   border: none;
   outline: none;
   cursor: pointer;
-  padding: 14px 16px;
+  padding: 14px 14px;
   font-size: 17px;
   width: 25%;
   margin: auto;
